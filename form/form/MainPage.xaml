@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="form.MainPage">
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Formula General" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Entry Placeholder="escribe el dato a" Keyboard="Numeric" x:Name="a" />
+        <Entry Placeholder="escribe el dato b" Keyboard="Numeric" x:Name="b" />
+        <Entry Placeholder="escribe el dato c" Keyboard="Numeric" x:Name="c" />
+        <Button Text="calcular" Clicked="Button_Clicked" />
+        <Label Text="Resultado de X1:" />
+        <Entry Placeholder="Respuesta de X1" x:Name="res2" IsEnabled="False"/>
+        <Label Text="Resultado de X2:" />
+        <Entry Placeholder="Respuesta de X2" x:Name="res1" IsEnabled="False"/>
+    </StackLayout>
+</ContentPage>
